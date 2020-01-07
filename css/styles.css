@@ -7,6 +7,10 @@ nav ul li {
     list-style-type: none;
 }
 
+nav ul {
+    padding: 0;
+}
+
 nav ul li a {
     display: block;
     padding: .4rem 1rem;
@@ -23,4 +27,5 @@ main img {
 
 footer {
     text-align: center;
+    clear: both;
 }
