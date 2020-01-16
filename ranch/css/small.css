@@ -44,7 +44,7 @@ nav li {
     list-style-type: none;
 }
 
-nave li.active {
+nav li.active {
     background-color: #333;
 }
 
@@ -72,8 +72,8 @@ main h1 {
     color: #F9C784
 }
 
-main fugure img {
-    width: 100;
+main figure img {
+    width: 100%;
 }
 
 main figure {
