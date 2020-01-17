@@ -1,4 +1,4 @@
-     @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Monda&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Monda&display=swap');
  * {
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
@@ -91,3 +91,4 @@
      padding: 1rem 2%;
      border-radius: 10px;
      margin: 10px;
+ }
