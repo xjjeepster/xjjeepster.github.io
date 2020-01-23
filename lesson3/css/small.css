@@ -103,6 +103,12 @@ main h3 {
     padding: .5em 0 .5em 0;
 }
 
+main img {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
 .personaimg {
     float: left;
     max-width: 200px;
