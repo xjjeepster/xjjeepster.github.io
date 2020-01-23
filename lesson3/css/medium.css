@@ -5,6 +5,7 @@
     /*----------- HEADER --------------*/
     header img {
         width: auto;
+        max-width: 150px;
     }
     header h1 {
         font-size: 2rem;
@@ -14,10 +15,10 @@
     }
     /*----------- NAVIGATION --------------*/
     nav ul {
-        margin-left: 2%;
+        display: flex;
     }
     nav ul li {
-        float: left;
+        flex: 1 1 100%;
     }
     nav ul li a {
         padding: .5rem 1rem;

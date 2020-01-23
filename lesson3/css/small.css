@@ -27,7 +27,8 @@ body {
 
 header {
     padding: .5rem 2%;
-    background-color: #7cb7ff;
+    background-color: #c2a83e;
+    color: #656565;
 }
 
 header img {
@@ -51,7 +52,7 @@ header h2 {
 /*----------- NAVIGATION --------------*/
 
 nav {
-    background-color: #EAC5D8;
+    background-color: #A6D3A0;
 }
 
 nav ul {
@@ -62,7 +63,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #597081;
+    color: #656565;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -70,13 +71,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #aaa;
+    background-color: #c1f28c;
     color: #333;
 }
 
 nav ul li.active a {
-    background-color: #afbed1;
-    color: #597089;
+    background-color: #e0eec6;
+    color: #656565;
 }
 
 
@@ -85,15 +86,31 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    text-align: center;
+}
+
+main h1 {
+    color: #c2a83e;
+}
+
+main h2 {
+    color: #656565;
+}
+
+.personaimg {
+    float: left;
+    max-width: 200px;
+    padding: 10px;
 }
 
 
 /*----------- FOOTER --------------*/
 
 footer {
-    background-color: #7cb7ff;
+    background-color: #c2a83e;
     padding: .5rem 2%;
     text-align: center;
+    color: #656565;
 }
 
 
