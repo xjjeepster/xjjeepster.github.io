@@ -97,6 +97,12 @@ main h2 {
     color: #656565;
 }
 
+main h3 {
+    background-color: #A6D3A0;
+    color: #656565;
+    padding: .5em 0 .5em 0;
+}
+
 .personaimg {
     float: left;
     max-width: 200px;
