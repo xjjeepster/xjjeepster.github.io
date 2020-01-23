@@ -1,5 +1,6 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Lalezar|Sorts+Mill+Goudy&display=swap');
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -29,6 +30,7 @@ header {
     padding: .5rem 2%;
     background-color: #c2a83e;
     color: #656565;
+    font-family: 'Calistoga', cursive;
 }
 
 header img {
@@ -53,6 +55,7 @@ header h2 {
 
 nav {
     background-color: #A6D3A0;
+    font-family: 'Lalezar', cursive;
 }
 
 nav ul {
@@ -66,7 +69,6 @@ nav ul li a {
     color: #656565;
     padding: .5rem 0;
     text-decoration: none;
-    font-size: .9rem;
     text-align: center;
 }
 
@@ -87,25 +89,32 @@ main {
     padding: 0 2%;
     min-height: 10rem;
     text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
 main h1 {
     color: #c2a83e;
+    font-family: 'Calistoga', cursive;
 }
 
 main h2 {
     color: #656565;
+    font-family: 'Calistoga', cursive;
 }
 
 main h3 {
     background-color: #A6D3A0;
     color: #656565;
     padding: .5em 0 .5em 0;
+    font-family: 'Calistoga', cursive;
 }
 
 main img {
     display: block;
     margin: auto;
+}
+
+.imgfix {
     width: 75%;
 }
 
