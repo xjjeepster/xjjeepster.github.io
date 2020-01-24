@@ -98,12 +98,12 @@ main h1 {
 }
 
 main h2 {
+    background-color: #A6D3A0;
     color: #656565;
     font-family: 'Calistoga', cursive;
 }
 
 main h3 {
-    background-color: #A6D3A0;
     color: #656565;
     padding: .5em 0 .5em 0;
     font-family: 'Calistoga', cursive;
