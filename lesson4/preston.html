@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="weathersiteplan" content="Information on Site Development">
+    <meta name="author" content="Ryan Hill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Site Project: Site Plan</title>
+    <link href="https://fonts.googleapis.com/css?family=Calistoga%7cLalezar%7cSorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="Company Logo">
+            <div>
+                <h1>Play In Idaho</h1>
+                <h2>We check so you can Play!</h2>
+            </div>
+
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li class="active">
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Preston</h1>
+        <div class="weatherSummary">
+            <section></section>
+            <figure class="full-width">
+                <img class="heroImg" src="https://picsum.photos/600/300" alt="Hero Img">
+            </figure>
+        </div>
+        <h2>Article Title</h2>
+        <p>Duis tempor reprehenderit sunt fugiat. Irure nostrud minim aliqua culpa adipisicing aliqua aliquip officia velit ex adipisicing enim labore. Exercitation elit voluptate sit ipsum tempor sunt adipisicing culpa sunt aliqua.</p>
+        <img class="articleImg" src="https://picsum.photos/300/150" alt="Related Img">
+
+        <h2>Contact Us</h2>
+        <div class="contactUs">
+            <div class="address">
+                <h3>Address:</h3>
+                <p>
+                    The Weather Center<br> 123 Main Street.<br> Franklin, MI 87654<br>
+                </p>
+            </div>
+            <div class="phoneEmail">
+                <h3>Phone:</h3>
+                <p>(801) 555-1234</p>
+                <h3>Email:</h3>
+                <p>contact@yoururl.com</p>
+            </div>
+        </div>
+        <div>
+            <img class="iframeMap" src="https://picsum.photos/300/150" alt="Ifram Map of Town">
+        </div>
+
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy;
+            <script src="js/date.js"></script> &bull; Ryan Hill &bull;
+            <div class="update">Last Updated: <span id="updateddate"></span></div>
+        </footer>
+    </div>
+    <script src="js/update.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
