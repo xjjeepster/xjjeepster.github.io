@@ -32,6 +32,8 @@ div#headerWrapper {
 
 header {
     display: flex;
+    align-items: center;
+    align-content: center;
     padding: .5rem 2%;
     background-color: #c2a83e;
     color: #656565;
@@ -39,9 +41,8 @@ header {
 }
 
 header img {
-    float: left;
     margin-right: 10px;
-    width: 50px;
+    width: 80px;
 }
 
 header h1 {
@@ -136,7 +137,7 @@ main img {
     width: 100%;
 }
 
-.full-width {
+.fullWidth {
     width: 100vw;
     position: relative;
     left: 50%;
@@ -166,6 +167,7 @@ p {
 
 div#footerWrapper {
     background-color: #c2a83e;
+    margin-top: 10px;
 }
 
 footer {

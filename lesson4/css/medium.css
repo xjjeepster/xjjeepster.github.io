@@ -5,7 +5,7 @@
     /*----------- HEADER --------------*/
     header img {
         width: auto;
-        max-width: 150px;
+        max-width: 100px;
     }
     header h1 {
         font-size: 2rem;
@@ -20,9 +20,6 @@
     nav ul.hide {
         display: block;
     }
-    nav ul {
-        margin-left: 2%;
-    }
     nav ul li {
         float: left;
     }
@@ -32,6 +29,21 @@
         padding: .6rem 1rem;
     }
     /*----------- MAIN --------------*/
+    .articleImg,
+    .iframeMap {
+        width: auto;
+    }
+    .box {
+        display: flex;
+        flex-flow: row;
+    }
+    .articleImg {
+        float: right;
+        margin-left: 2%;
+    }
+    .iframeMap {
+        margin
+    }
     /*----------- FOOTER --------------*/
 }
 
