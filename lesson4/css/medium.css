@@ -34,15 +34,15 @@
         width: auto;
     }
     .box {
-        display: flex;
-        flex-flow: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .articleImg {
         float: right;
         margin-left: 2%;
     }
-    .iframeMap {
-        margin-left: 50%;
+    .imgBx {
+        justify-self: end;
     }
     /*----------- FOOTER --------------*/
 }
