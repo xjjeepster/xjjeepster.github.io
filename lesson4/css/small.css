@@ -27,17 +27,7 @@ body {
 /*----------- HEADER --------------*/
 
 div#headerWrapper {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c2a83e+0,e0eec6+100 */
-    background: #c2a83e;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #c2a83e 0%, #e0eec6 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #c2a83e 0%, #e0eec6 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #c2a83e 0%, #e0eec6 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c2a83e', endColorstr='#e0eec6', GradientType=0);
-    /* IE6-9 */
+    background-image: linear-gradient( #c2a83e, #e0eec6);
 }
 
 header {
@@ -72,17 +62,7 @@ header h2 {
 /*----------- NAVIGATION --------------*/
 
 div#navWrapper {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0eec6+0,a6d3a0+100 */
-    background: #e0eec6;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #e0eec6 0%, #a6d3a0 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #e0eec6 0%, #a6d3a0 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #e0eec6 0%, #a6d3a0 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0eec6', endColorstr='#a6d3a0', GradientType=0);
-    /* IE6-9 */
+    background: linear-gradient( #e0eec6, #a6d3a0);
 }
 
 nav button {
@@ -113,18 +93,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0eec6+0,c2a83e+100 */
-    background: #e0eec6;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #e0eec6 0%, #c2a83e 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #e0eec6 0%, #c2a83e 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #e0eec6 0%, #c2a83e 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0eec6', endColorstr='#c2a83e', GradientType=0);
-    /* IE6-9 */
-    color: #656565;
+    background: linear-gradient(#e0eec6, #c2a83e);
 }
 
 nav ul li a:hover {
@@ -150,17 +119,7 @@ main h1 {
 }
 
 main h2 {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0eec6+0,a6d3a0+50,e0eec6+100 */
-    background: #e0eec6;
-    /* Old browsers */
-    background: -moz-linear-gradient(left, #e0eec6 0%, #a6d3a0 50%, #e0eec6 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #e0eec6 0%, #a6d3a0 50%, #e0eec6 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #e0eec6 0%, #a6d3a0 50%, #e0eec6 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0eec6', endColorstr='#e0eec6', GradientType=1);
-    /* IE6-9 */
+    background: radial-gradient( #e0eec6, #a6d3a0, #e0eec6, #a6d3a0);
     color: #656565;
     font-family: 'Calistoga', cursive;
 }
@@ -207,17 +166,7 @@ main div.box div.contactUs section p {
 /*----------- FOOTER --------------*/
 
 div#footerWrapper {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0eec6+0,c2a83e+100 */
-    background: #e0eec6;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #e0eec6 0%, #c2a83e 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #e0eec6 0%, #c2a83e 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #e0eec6 0%, #c2a83e 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0eec6', endColorstr='#c2a83e', GradientType=0);
-    /* IE6-9 */
+    background: linear-gradient(#e0eec6, #c2a83e);
     margin-top: 10px;
 }
 
