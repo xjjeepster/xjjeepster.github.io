@@ -92,13 +92,14 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-nav ul li.active a {
-    background: linear-gradient(#e0eec6, #c2a83e);
+nav ul li a:hover {
+    /*background-color: #c1f28c;*/
+    background: linear-gradient(#c1f28c, #c2a83e);
+    color: #333;
 }
 
-nav ul li a:hover {
-    background-color: #c1f28c;
-    color: #333;
+nav ul li.active a {
+    background: linear-gradient(#e0eec6, #c2a83e);
 }
 
 nav ul.hide {
