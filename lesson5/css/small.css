@@ -134,7 +134,10 @@ main {
 }
 
 main h1 {
-    color: #c2a83e;
+    background: -webkit-linear-gradient(#c2a83e, #656565, #c2a83e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: linear-gradient(#c2a83e, #656565);*/
     font-family: 'Calistoga', cursive;
 }
 
