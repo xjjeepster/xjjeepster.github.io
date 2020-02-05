@@ -42,6 +42,7 @@
     section.forcast {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        max-width: 730px;
     }
     section.forcast div {
         text-align: center;

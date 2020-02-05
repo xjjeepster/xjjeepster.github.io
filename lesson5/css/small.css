@@ -24,6 +24,17 @@ body {
 }
 
 
+/*----------- banner --------------*/
+
+article.banner {
+    text-align: center;
+    background: radial-gradient( #eaff31, #ff932e);
+    padding: 1rem 0;
+    color: #333;
+    font-family: 'Lalezar', cursive;
+}
+
+
 /*----------- HEADER --------------*/
 
 div#headerWrapper {
