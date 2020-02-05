@@ -36,6 +36,23 @@
         display: grid;
         grid-template-columns: 1fr auto;
     }
+    .forcastHeader {
+        display: block;
+    }
+    section.forcast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    section.forcast div {
+        text-align: center;
+        border: 1px solid #c2a83e;
+    }
+    section.forcast div h5 {
+        color: #424242;
+        background: radial-gradient( #e0eec6, #a6d3a0, #e0eec6, #a6d3a0);
+        margin: 0;
+        padding: 1rem 0;
+    }
     .contactUs {
         grid-column: 1 / 3;
     }
