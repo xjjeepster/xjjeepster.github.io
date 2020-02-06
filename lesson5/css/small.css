@@ -137,7 +137,6 @@ main h1 {
     background: -webkit-linear-gradient(#c2a83e, #656565, #c2a83e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /*color: linear-gradient(#c2a83e, #656565);*/
     font-family: 'Calistoga', cursive;
 }
 
@@ -158,8 +157,6 @@ main img {
     margin: 0;
     width: 100%;
 }
-
-.herodiv {}
 
 .fullWidth {
     width: 100vw;
