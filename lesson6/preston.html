@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather Site Project: Preston</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Calistoga%7cLalezar%7cSorts+Mill+Goudy&display=swap" rel="stylesheet">
+
 
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -52,9 +52,11 @@
             images/herolrg.jpg 1920w">
             <section class="stats">
                 <h3>Weather Summary</h3>
-                <p>High: 42&deg;</p>
-                <p>Low: 12&deg;</p>
-                <p>Wind: SE 1 MPH</p>
+                <p>Currently: Rainy</p>
+                <p>Current Temp:<span id='temp'>45</span>&deg;</p>
+                <p>Humidity: 95%</p>
+                <p>Wind Speed:<span id='speed'>5</span> MPH</p>
+                <p><span id='chill'></span></p>
             </section>
         </div>
         <h2 class=forcastHeader>Five Day Forecast</h2>
@@ -132,7 +134,14 @@
         </footer>
     </div>
     <script src="js/scripts.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Calistoga%7cLalezar%7cSorts+Mill+Goudy']
+            }
+        });
+    </script>
 
 
 </body>
