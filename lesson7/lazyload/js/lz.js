@@ -30,7 +30,7 @@ images.forEach(image => {
 
 
 
-let imagesToLoad = document.querySelectorAll('img[data-src]');
+/*let imagesToLoad = document.querySelectorAll('img[data-src]');
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
@@ -64,12 +64,12 @@ if ('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
-}
+}*/
 
 
 
 
-/*let images = document.querySelectorAll('[data-src]');
+let images = document.querySelectorAll('[data-src]');
 
 function preloadImage(img) {
     const src = img.getAttribute("data-src");
@@ -107,4 +107,4 @@ if ('IntersectionObserver' in window) {
     images.forEach(image => {
         imgObserver.observe(image);
     });
-}*/
+}
