@@ -216,6 +216,29 @@ main div.box div.imgBx {
 }
 
 
+/*----------- Gallery Page --------*/
+
+div.gallery {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+div.gallery figure {
+    border-style: outset;
+    border-color: #a6d3a0;
+    border-width: 7px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2px;
+}
+
+div.gallery figure figcaption {
+    text-align: center;
+    background: linear-gradient(#e0eec6, #c2a83e);
+    padding: 3px 0px 0px 2px;
+}
+
+
 /*----------- FOOTER --------------*/
 
 div#footerWrapper {

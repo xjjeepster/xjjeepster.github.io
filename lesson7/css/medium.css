@@ -75,6 +75,10 @@
         float: right;
         margin-left: 2%;
     }
+    /*----------- Gallery Page --------*/
+    div.gallery {
+        grid-template-columns: 1fr 1fr;
+    }
     /*----------- FOOTER --------------*/
 }
 

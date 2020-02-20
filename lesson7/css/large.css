@@ -20,6 +20,14 @@
         margin-left: 0;
         margin-right: 0;
     }
+    /*----------- Gallery Page --------*/
+    div.gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    div.gallery figure:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    }
     /*----------- FOOTER --------------*/
 }
 
