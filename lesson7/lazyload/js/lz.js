@@ -1,5 +1,10 @@
 let images = document.querySelectorAll('img[data-src]');
 
+const imgOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px 50px 0px",
+};
+
 
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
@@ -8,19 +13,13 @@ const loadImages = (image) => {
     };
 };
 
-const imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 200px 0px",
-};
-
-
 
 if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                loadImages(entry.target);
-                observer.unobserve(entry.target);
+    const observer = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                observer.unobserve(item.target);
             }
         });
     }, imgOptions);
