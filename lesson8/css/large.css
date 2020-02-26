@@ -20,6 +20,9 @@
         margin-left: 0;
         margin-right: 0;
     }
+    form label.dng {
+        padding: .4rem 0;
+    }
     /*----------- Gallery Page --------*/
     div.gallery {
         grid-template-columns: 1fr 1fr 1fr;
