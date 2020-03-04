@@ -90,6 +90,11 @@
     div.cards :nth-child(2) :nth-child(6) {
         grid-column: 2 / 3;
     }
+    .dailyStory div {}
+    .dailyStory div img {
+        width: 33%;
+        float: right;
+    }
     /*----------- FOOTER --------------*/
 }
 
