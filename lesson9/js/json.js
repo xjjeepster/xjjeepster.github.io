@@ -25,7 +25,7 @@ fetch(requestURL)
             motto.textContent = pagetowns[i].motto;
             yf.textContent = "Year Founded: " + pagetowns[i].yearFounded;
             cp.textContent = "Population: " + pagetowns[i].currentPopulation;
-            avgrf.textContent = "Annual Rain Fall: " + pagetowns[i].averageRainfall;
+            avgrf.textContent = "Annual Rainfall: " + pagetowns[i].averageRainfall;
 
             img.setAttribute('src', 'images/' + pagetowns[i].photo);
             img.setAttribute('alt', pagetowns[i].name);
