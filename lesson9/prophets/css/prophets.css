@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lateef|Tangerine&display=swap');
+
+/*----------------- Small ------------------*/
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*-apply a natural box layout model to all elements -*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C4BBAF;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: 'Tangerine', cursive;
+    color: #5A2A27;
+    font-size: 2em;
+}
+
+h2,
+p {
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 5px;
+    box-shadow: 0px 0px 20px 5px #A5978B;
+    padding: 15px;
+}
+
+.cards section {
+    padding: 15px;
+    background-color: #8D5B4C;
+    border: 1px solid #5C4742;
+}
+
+.cards img {
+    box-shadow: 0px 0px 20px 5px #A5978B;
+    width: 60%;
+    margin: 10px 0 0 0;
+}
+
+
+/*---------------- Medium ------------------*/
+
+
+/* 35em is also 560px when basefont is 16px */
+
+@media only screen and (min-width: 35rem) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*----------------- Large ------------------*/
+
+
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 64rem) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
