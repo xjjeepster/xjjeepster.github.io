@@ -293,6 +293,35 @@
                 background: linear-gradient(#e0eec6, #c2a83e);
                 padding: 3px 0px 0px 2px;
             }
+            /*----------- HOME PAGE -----------*/
+            
+            div.cards {
+                display: grid;
+                row-gap: 5px;
+                justify-content: center;
+                align-content: center;
+                margin: 0 auto;
+            }
+            
+            div.cards section {
+                display: block;
+                text-align: center;
+                background: linear-gradient(36deg, rgba(224, 238, 198, 1) 0%, rgba(194, 168, 62, 1) 48%, rgba(166, 211, 160, 1) 100%);
+                margin: 5px 0;
+                box-shadow: 0 0 30px #c2a83e;
+            }
+            
+            div.cards section h2 {
+                background: none;
+            }
+            
+            div.cards section p {
+                padding: 5px;
+            }
+            
+            div.cards section p:nth-child(2) {
+                font-style: italic;
+            }
             /*----------- FOOTER --------------*/
             
             div#footerWrapper {

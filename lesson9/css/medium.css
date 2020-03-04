@@ -79,6 +79,17 @@
     div.gallery {
         grid-template-columns: 1fr 1fr;
     }
+    /*----------- HOME PAGE -----------*/
+    div.cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.cards section img {
+        grid-row: 1 / 6;
+    }
+    div.cards :nth-child(2) :nth-child(6) {
+        grid-column: 2 / 3;
+    }
     /*----------- FOOTER --------------*/
 }
 
