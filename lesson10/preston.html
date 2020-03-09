@@ -55,10 +55,10 @@
             </picture>
             <section class="stats">
                 <h3>Weather Summary</h3>
-                <p>Currently: Rainy</p>
-                <p>Current Temp:<span id='temp'>45</span>&deg;</p>
-                <p>Humidity: 95%</p>
-                <p>Wind Speed:<span id='speed'>5</span> MPH</p>
+                <p>Currently: <span id="currentCond">XX</span></p>
+                <p>Temperature: <span class="ptemp" id='temp'>XX</span>&deg;</p>
+                <p>Humidity: <span id="humidity">XX</span>%</p>
+                <p>Wind Speed: <span class="pspeed" id='speed'>XX</span> MPH</p>
                 <p><span id='chill'></span></p>
             </section>
         </div>
@@ -104,12 +104,14 @@
             <script src="js/date.js"></script> &bull; Ryan Hill &bull;
             <div class="todayDate">Today's Date: <span></span>
                 <script src="js/todaysdate.js"></script>
+                Weather by: <a href="https://https://openweathermap.org/">OpenWeatherMap</a>
             </div>
         </footer>
     </div>
     <script src="js/scripts.js"></script>
-    <script src="js/windchill.js"></script>
     <script src="js/fiveDayPreston.js"></script>
+    <script src="js/weatherSummaryPreston.js"></script>
+    <script src="js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
