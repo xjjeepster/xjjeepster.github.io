@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="weathersiteplan" content="Information on Site Development">
+    <meta name="author" content="Ryan Hill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston: Weather Site Project</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <article id="banner">"Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."</article>
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="Company Logo">
+            <div>
+                <h1>Play In Idaho</h1>
+                <h2>We check so you can Play!</h2>
+            </div>
+
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Preston</h1>
+        <div class="herodiv, fullWidth">
+            <picture class="heroImg">
+                <source media="(max-width: 560px)" srcset="images/hero560.jpg">
+                <source media="(max-width: 1028px)" srcset="images/hero1028.jpg">
+                <source media="(max-width: 1920px)" srcset="images/hero1920.jpg">
+                <img src="images/herobrk.jpg" alt="Hero Image">
+            </picture>
+            <section class="stats">
+                <h3>Weather Summary</h3>
+                <p>Currently: Rainy</p>
+                <p>Current Temp:<span id='temp'>45</span>&deg;</p>
+                <p>Humidity: 95%</p>
+                <p>Wind Speed:<span id='speed'>5</span> MPH</p>
+                <p><span id='chill'></span></p>
+            </section>
+        </div>
+        <h2 class=forcastHeader id="townName">Five Day Forecast</h2>
+        <section id="weatherforecast"></section>
+        <h2>Article Title</h2>
+        <div>
+            <img class="articleImg" src="https://picsum.photos/300/150" alt="Related Img">
+            <p>Dolore exercitation laboris labore incididunt sint culpa consectetur ea irure. Deserunt consequat enim aute elit. Pariatur nostrud consectetur pariatur exercitation consectetur sit voluptate cupidatat labore voluptate voluptate minim occaecat
+                duis. Tempor sint sunt veniam quis veniam Lorem elit anim do do qui consequat esse laboris. Deserunt officia dolor mollit eiusmod sint nisi anim minim incididunt officia ullamco.Consectetur esse exercitation sint consequat consequat eu
+                nisi. Reprehenderit ut dolor sunt ut nulla et do enim cillum sint. Mollit ea veniam velit tempor.Ad eiusmod adipisicing exercitation dolore et sint. Nostrud consectetur duis qui laboris. Do mollit aliqua Lorem anim magna incididunt ea
+                dolor cupidatat aliquip do et elit aute. Consequat sint irure pariatur officia et occaecat commodo veniam sint amet incididunt ea. Consequat amet cillum tempor cupidatat est est mollit amet amet aliqua cupidatat consequat ut. Aute culpa
+                ut esse ex do elit proident.Duis tempor reprehenderit sunt fugiat. Irure nostrud minim aliqua culpa adipisicing aliqua aliquip officia velit ex adipisicing enim labore. Exercitation elit voluptate sit ipsum tempor sunt adipisicing culpa
+                sunt aliqua.</p>
+
+        </div>
+
+        <h2>Contact Us</h2>
+        <div class="box">
+            <div class="contactUs">
+                <section class="address">
+                    <h3>Address:</h3>
+                    <p>
+                        The Weather Center<br> 123 Main Street.<br> Franklin, MI 87654<br>
+                    </p>
+                </section>
+                <section class="phoneEmail">
+                    <h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p>
+                </section>
+            </div>
+            <div class="imgBx">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23683.287084291016!2d-111.88662389680854!3d42.098670191026486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1580923654725!5m2!1sen!2sus"></iframe>
+            </div>
+        </div>
+
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy;
+            <script src="js/date.js"></script> &bull; Ryan Hill &bull;
+            <div class="todayDate">Today's Date: <span></span>
+                <script src="js/todaysdate.js"></script>
+            </div>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/fiveDayPreston.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Calistoga%7cLalezar%7cSorts+Mill+Goudy']
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
