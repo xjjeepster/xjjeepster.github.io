@@ -168,10 +168,13 @@
                 font-size: .8em;
             }
             
-            .stats h3,
-            p {
-                margin: 0;
+            .stats h3 {
+                margin: 0 0 1em 0;
                 padding: 0;
+            }
+            
+            .stats p {
+                margin: 0;
             }
             
             .forcastHeader {
