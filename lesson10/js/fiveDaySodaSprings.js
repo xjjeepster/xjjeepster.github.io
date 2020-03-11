@@ -16,7 +16,7 @@ const apiURL = "//api.openweathermap.org/data/2.5/forecast?zip=83276,us&appid=a4
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
-        console.log(weatherInfo);
+        //console.log(weatherInfo);
 
         document.getElementById("townName").textContent = weatherInfo.city.name + " Five Day Forecast";
 
@@ -29,7 +29,7 @@ fetch(apiURL)
             let time = mylist[i].dt_txt;
 
             if (time.includes('18:00:00')) {
-                console.log("Found an entry with 18:00:00 in the time. it was report " + i + " from the mylist of 40");
+                //console.log("Found an entry with 18:00:00 in the time. it was report " + i + " from the mylist of 40");
 
                 forecastDayNumber += 1;
                 if (forecastDayNumber === 7) { forecastDayNumber = 0; }
