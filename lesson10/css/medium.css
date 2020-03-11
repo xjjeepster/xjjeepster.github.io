@@ -46,9 +46,10 @@
     }
     section#weatherforecast {
         display: grid;
+        gap: 7px;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
-        justify-items: center;
+        justify-items: stretch;
     }
     .contactUs {
         grid-column: 1 / 3;

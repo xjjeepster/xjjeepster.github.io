@@ -190,6 +190,7 @@
                 border: 2px solid #a6d3a0;
                 border-radius: 5px;
                 padding: 1em;
+                margin: 0;
                 text-align: center;
                 background: linear-gradient(125deg, #e0eec6, #a6d3a0);
             }
