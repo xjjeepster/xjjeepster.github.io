@@ -41,6 +41,7 @@
         position: absolute;
         bottom: 25px;
         right: 25px;
+        border-radius: 10px;
     }
     .box {
         display: grid;
