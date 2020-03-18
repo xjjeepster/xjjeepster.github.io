@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="weathersiteplan" content="Information on Site Development">
+    <meta name="author" content="Ryan Hill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Storm Center: Weather Site Project</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="Company Logo">
+            <div>
+                <h1>Play In Idaho</h1>
+                <h2>We check so you can Play!</h2>
+            </div>
+
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodaSprings.html">Soda Springs</a></li>
+                <li><a href="fishHaven.html">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Storm Center</h1>
+        <p>Thanks for Submitting your local storm information. Your responses will help us create a accurate and energetic website.</p>
+        <figure>
+            <img src="images/thanks600.jpg" alt="Thank You">
+            <figcaption>Photo by kevin Xue on Unsplash</figcaption>
+        </figure>
+
+
+
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy;
+            <script src="js/date.js"></script> &bull; Ryan Hill &bull;
+            <div class="todayDate">Today's Date: <span></span>
+                <script src="js/todaysdate.js"></script>
+            </div>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/severity.js"></script>
+
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Calistoga%7cLalezar%7cSorts+Mill+Goudy']
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
