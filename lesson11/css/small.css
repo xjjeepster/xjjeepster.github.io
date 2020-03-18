@@ -179,9 +179,6 @@
             }
             
             .activities {
-                position: absolute;
-                bottom: 10px;
-                right: 10px;
                 background: radial-gradient(#e0eec6, #a6d3a0);
                 border: 1px solid #c2a83e;
                 border-radius: 10px;
@@ -199,7 +196,7 @@
             
             .activities p {
                 margin: 0;
-                font-size: 1em;
+                font-size: 1.25em;
             }
             
             .forcastHeader {

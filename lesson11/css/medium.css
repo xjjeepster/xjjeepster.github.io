@@ -37,6 +37,11 @@
         left: 25px;
         font-size: 1em;
     }
+    .activities {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
     .box {
         display: grid;
         grid-template-columns: 1fr auto;
