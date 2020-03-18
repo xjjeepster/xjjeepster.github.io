@@ -145,6 +145,7 @@
                 display: block;
                 margin: 0;
                 width: 100%;
+                padding-left: 2%;
             }
             
             .fullWidth {
@@ -200,6 +201,18 @@
             
             .forcastHeader {
                 display: none;
+            }
+            
+            .indexDailyStory {
+                box-shadow: 0 0 30px #c2a83e;
+            }
+            
+            .dailyStory {
+                background-color: #a6d3a0;
+            }
+            
+            .dstory {
+                padding-left: 2%;
             }
             
             section#weatherforecast {
