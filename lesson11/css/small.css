@@ -15,6 +15,7 @@
             /*----------- BODY --------------*/
             
             body {
+                background: linear-gradient(.25turn, #dbd3c9, #c1f28c, #a4c3b2);
                 font-size: 16px;
                 font-family: 'Sorts Mill Goudy', serif;
             }
