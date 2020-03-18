@@ -44,7 +44,8 @@ fetch(apiURL)
                 let iconPath = "//openweathermap.org/img/w/" + iconcode + ".png";
                 let theIcon = document.createElement("img");
                 theIcon.src = iconPath;
-                theIcon.setAttribute('alt', desc);
+                theIcon.setAttribute('src', iconPath);
+                theIcon.setAttribute('alt', iconcode);
 
                 let theDay = document.createElement("div");
                 theDay.appendChild(theDayName);
