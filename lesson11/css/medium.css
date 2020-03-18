@@ -70,7 +70,7 @@
     }
     .articleImg {
         float: right;
-        margin-left: 2%;
+        margin: 0 2% 2% 2%;
     }
     /*----------- Gallery Page --------*/
     div.gallery {
