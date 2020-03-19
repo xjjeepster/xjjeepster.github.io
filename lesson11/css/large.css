@@ -44,7 +44,7 @@
         display: block;
     }
     div.cards section p:nth-child(2) {
-        font-size: .95em;
+        font-size: .90em;
         font: bold;
     }
     /*----------- FOOTER --------------*/
