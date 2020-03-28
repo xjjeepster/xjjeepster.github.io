@@ -18,28 +18,27 @@ html {
 /* body rules */
 
 body {
-    font-family: $fontFamily;
-    font-weight: $regularWeight;
+    font-family: $fontfamily1;
     font-size: 16px;
 }
 
 header {
-    background-color: $primaryColor;
+    background-color: $color1;
     padding: 1rem $gutter;
     h1 {
         margin: 0;
         font-size: 1.5rem;
-        font-weight: $heavyWeight;
+        font-family: $fontfamily3;
     } //end of h1
     h2 {
         margin: 0;
         font-size: 1.2rem;
         font-weight: normal;
-        font-weight: $regularWeight;
+        font-family: $fontfamily2;
     } //end of h2
 } //end of header
 nav {
-    background-color: #111;
+    background-color: $color4;
     ul {
         margin: 0;
         padding: 0;
@@ -48,41 +47,88 @@ nav {
         list-style-type: none;
     }
     li.active {
-        background-color: #333
+        background-color: $color3;
     }
     a {
         display: block;
         padding: .8rem 0;
         /*44px min*/
-        color: #eee;
+        color: $color2;
         text-align: center;
         text-decoration: none;
     }
     a:hover {
-        background-color: #444;
+        background-color: $color5;
     }
 } //end of nav
 main {
     display: block;
     padding: 1rem $gutter;
     h1 {
-        color: $primaryColor;
-        font-weight: $heavyWeight;
+        color: $color5;
     }
-    figure {
-        margin: 0;
-        width: 100%;
-        img {
-            width: 100%;
-        }
-    } //ends figure
-    figcaption {
-        text-align: center;
-        font-size: .8rem;
+    .personaimg {
+        max-width: 300px;
+        border: 1px solid $color1;
+    }
+    .sitemap {
+        max-width: 800px;
+        border: 1px solid $color1;
+    }
+    .colorScheme {
+        max-width: 800px;
+        border: 1px solid $color1;
     }
 } //end of main
+table,
+th,
+td {
+    border: 1px solid $color1;
+    .f1 {
+        font-family: $fontfamily3;
+        font-size: 40px;
+        padding: 2px;
+    }
+    .f2 {
+        font-family: $fontfamily2;
+        font-size: 30px;
+        padding: 2px;
+    }
+    .f3 {
+        font-family: $fontfamily2;
+        font-size: 20px;
+        padding: 2px;
+    }
+    .f4 {
+        font-family: $fontfamily3;
+        font-size: 30px;
+        padding: 2px;
+    }
+    .f5 {
+        font-family: $fontfamily2;
+        font-size: 25px;
+        padding: 2px;
+    }
+    .f6 {
+        font-family: $fontfamily2;
+        font-size: 20px;
+        padding: 2px;
+    }
+    .f7 {
+        font-family: $fontfamily1;
+        font-size: 16px;
+        padding: 2px;
+    }
+}
+
+.wframe {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
 footer {
-    background-color: $primaryColor;
+    background-color: $color1;
     text-align: center;
     padding: 1rem $gutter;
 }
