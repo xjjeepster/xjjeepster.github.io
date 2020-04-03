@@ -1,0 +1,28 @@
+{
+    "activities": [{
+            "name": "Window Arch",
+            "description": "This short 300 Feet hike is perfect for families with young kids. Located behind campsite #37, this short walk leads
+            to the impressive Window Arch which spans over 20 feet.Windows bathtubs and caves sculpted by forces of erosion are featured along with spectacular
+            views of the“ Inner City”.
+            ",
+            "#visitors": "60,000 visitors annually",
+            "imageurl": "https://www.americansouthwest.net/idaho/photographs700/window-arch.jpg"
+        },
+        {
+            "name": "Stairways Trail",
+            "description": "If you want great views of the towering 'Inner City' spires, then take the Creekside Towers Trail for a 1/2 mile where you can access
+            the Stairways Trail.This additional 1 / 5 mile trail will connect to the South Fork Circle Creek Trail and loop you back to the beginning.
+            ",
+            "#visitors": "45,000 visitors annually",
+            "imageurl": "https://www.americansouthwest.net/idaho/photographs700/stairways-rocks.jpg"
+        },
+        {
+            "name": "Bath Rock trail: Rock Climbing",
+            "description": "Not a long loop, Only 1800 feet, however if you want to see the natural pools there are some very steep climbs along the 240-foot high formation.
+            Great spot to start young climbers out on their first climbs.
+            ",
+            "#visitors": "65,000 visitors annually",
+            "imageurl": "https://www.americansouthwest.net/idaho/photographs700/bath-rock.jpg"
+        },
+    ]
+}

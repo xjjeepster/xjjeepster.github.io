@@ -17,55 +17,66 @@
 </head>
 
 <body>
-    <div id="headerWrapper">
-        <header class="clearfix">
-            <img class="logo" src="images/logo.png" alt="Company Logo">
-            <div>
-                <h1>City Of Rocks</h1>
-                <h2>National Park Reserve: Idaho</h2>
+    <div>
+        <div id="headerWrapper">
+            <div class="herodiv">
+                <picture class="heroImg">
+                    <source media="(max-width: 560px)" srcset="images/hero560.jpg">
+                    <source media="(max-width: 1028px)" srcset="images/hero1280.jpg">
+                    <source media="(max-width: 1920px)" srcset="images/hero1920.jpg">
+                    <img src="images/herobrk.jpg" alt="City of Rocks">
+                </picture>
             </div>
+            <div class="branding">
+                <header class="clearfix">
+                    <img class="logo" src="images/logo.png" alt="Company Logo">
+                    <div>
+                        <h1 class="logoNm">City Of Rocks</h1>
+                        <h2 class="moto">National Park Reserve: Idaho</h2>
+                    </div>
 
-        </header>
-    </div>
-    <div id="navWrapper">
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="activities.html">Our Activities</a></li>
-                <li><a href="visitUs.html">Visit Us</a></li>
-                <li><a href="contactUs.html">Contact Us</a></li>
-                <li class="active"><a href="resourceReferance.html">Resources</a></li>
+                </header>
+            </div>
+        </div>
+        <div id="navWrapper">
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Our Activities</a></li>
+                    <li><a href="visitUs.html">Visit Us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li class="active"><a href="resourceReferance.html">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+
+            <ul>
+                <li><a href="https://www.americansouthwest.net/idaho/city-of-rocks/national-reserve.html">Pictures</a> </li>
+                <li><a href="https://www.nps.gov/ciro/index.htm">Articles/Content</a> </li>
+                <li><a href="https://visitidaho.org/travel-tips/otherworldly-adventures-exploring-city-rocks/">Picture/Content</a> </li>
             </ul>
-        </nav>
-    </div>
-    <main>
-
-        <ul>
-            <li><a href="https://www.americansouthwest.net/idaho/city-of-rocks/national-reserve.html">Pictures</a> </li>
-            <li><a href="https://www.nps.gov/ciro/index.htm">Articles/Content</a> </li>
-            <li><a href="https://visitidaho.org/travel-tips/otherworldly-adventures-exploring-city-rocks/">Picture/Content</a> </li>
-        </ul>
 
 
-    </main>
-    <div id="footerWrapper">
-        <footer>
-            &copy;
-            <script src="js/date.js"></script> &bull; Ryan Hill &bull; <a href="https://xjjeepster.github.io/">Portal Page</a> &bull;
-        </footer>
-    </div>
-    <script src="js/scripts.js"></script>
-    <script src="js/severity.js"></script>
-    <script src="js/json.js"></script>
+        </main>
+        <div id="footerWrapper">
+            <footer>
+                &copy;
+                <script src="js/date.js"></script> &bull; Ryan Hill &bull; <a href="https://xjjeepster.github.io/">Portal Page</a> &bull;
+            </footer>
+        </div>
+        <script src="js/scripts.js"></script>
+        <script src="js/severity.js"></script>
+        <script src="js/json.js"></script>
 
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Oswald%7cRakkas%7cRock+Salt']
-            }
-        });
-    </script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Oswald%7cRakkas%7cRock+Salt']
+                }
+            });
+        </script>
 </body>
 
 </html>
