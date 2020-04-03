@@ -15,8 +15,8 @@ fetch(requestURL)
             let img = document.createElement('img');
 
             h2.textContent = activities[i].name;
-            pd.textContent = "Description: " + activities[i].description;
-            pp.textContent = "Number fo Visitors (anually): " + activities[i].#visitors;
+            pd.textContent = activities[i].description;
+            pp.textContent = "Visitors (anually): " + activities[i].visitors;
 
             img.setAttribute('src', activities[i].imageurl);
 
