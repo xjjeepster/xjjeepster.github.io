@@ -4,6 +4,10 @@ header .logo {
     width: 100px;
 }
 
+.heroImg {
+    padding-bottom: 0;
+}
+
 
 /*----------- NAVIGATION --------------*/
 
@@ -40,6 +44,20 @@ nav ul li a {
 
 
 /*----------- MAIN --------------*/
+
+main figure {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
+
+.homePpic {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 10px;
+}
 
 
 /*----------- FOOTER --------------*/

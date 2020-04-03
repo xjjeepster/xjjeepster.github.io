@@ -26,17 +26,12 @@ body {
 
 /* header rules */
 
-.fullWidth {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-}
-
 .heroImg {
     opacity: .6;
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 2%;
 }
 
 .branding {
@@ -119,10 +114,58 @@ nav ul.hide {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    width: 100%;
+    margin: 0 auto;
+    figure {
+        margin: 0;
+    }
+}
+
+.homePpic {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.forcast {
+    background-image: radial-gradient($color5, $color3);
+    border-radius: 10px;
+    grid-column-start: 1 / span 1;
+    .forcastHeader {
+        display: block;
+        padding: 2%;
+    }
+    section#weatherforecast {
+        display: grid;
+        gap: 7px;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: stretch;
+        padding: 2%;
+    }
 }
 
 
 /* footer rules */
+
+div#footerWrapper {
+    background: linear-gradient($color1, $color4);
+    margin-top: 10px;
+    footer {
+        background-color: transparent;
+        padding: .5rem 2%;
+        text-align: center;
+        color: $color2;
+        a {
+            color: $color5;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        a:hover {
+            color: $color2;
+        }
+    }
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/

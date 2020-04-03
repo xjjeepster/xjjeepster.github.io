@@ -407,16 +407,12 @@ body {
   font-family: "Oswald", sans-serif; }
 
 /* header rules */
-.fullWidth {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw; }
-
 .heroImg {
-  opacity: .6; }
+  opacity: .6;
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 2%; }
 
 .branding {
   position: absolute;
@@ -480,9 +476,48 @@ nav ul.hide {
 /* main rules */
 main {
   padding: 0 2%;
-  min-height: 10rem; }
+  min-height: 10rem;
+  width: 100%;
+  margin: 0 auto; }
+  main figure {
+    margin: 0; }
+
+.homePpic {
+  display: block;
+  margin: 0;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px; }
+
+.forcast {
+  background-image: radial-gradient(#0e79b2, #00171f);
+  border-radius: 10px;
+  grid-column-start: 1 / span 1; }
+  .forcast .forcastHeader {
+    display: block;
+    padding: 2%; }
+  .forcast section#weatherforecast {
+    display: grid;
+    gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: stretch;
+    padding: 2%; }
 
 /* footer rules */
+div#footerWrapper {
+  background: linear-gradient(#3a682e, #423629);
+  margin-top: 10px; }
+  div#footerWrapper footer {
+    background-color: transparent;
+    padding: .5rem 2%;
+    text-align: center;
+    color: #fcfcfc; }
+    div#footerWrapper footer a {
+      color: #0e79b2;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    div#footerWrapper footer a:hover {
+      color: #fcfcfc; }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
@@ -493,6 +528,9 @@ main {
   /*----------- HEADER --------------*/
   header .logo {
     width: 100px; }
+
+  .heroImg {
+    padding-bottom: 0; }
 
   /*----------- NAVIGATION --------------*/
   nav {
@@ -520,6 +558,40 @@ main {
     padding: .6rem 1rem; }
 
   /*----------- MAIN --------------*/
+  main figure {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem; }
+
+  .homePpic {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 10px; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
+@media only screen and (min-width: 1280px) {
+  /*----------- BODY --------------*/
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 80rem;
+    margin: auto; }
+
+  /*----------- HEADER --------------*/
+  /*----------- NAVIGATION --------------*/
+  /*----------- MAIN --------------*/
+  .fullWidth {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0; }
+
+  /*----------- HOME PAGE -----------*/
+  /*----------- FOOTER --------------*/ }
 /* end of media query */

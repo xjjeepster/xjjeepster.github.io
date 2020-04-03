@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home: City of Rocks</title>
     <link rel="sortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Rakkas|Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald%7cRakkas%7cRock+Salt&display=swap" rel="stylesheet">
 
     <!-- Style Sheets (css preprocessor)-->
     <link href="css/styles.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 <body>
     <div>
         <div id="headerWrapper">
-            <div class="herodiv, fullWidth">
+            <div class="herodiv">
                 <picture class="heroImg">
                     <source media="(max-width: 560px)" srcset="images/hero560.jpg">
                     <source media="(max-width: 1028px)" srcset="images/hero1280.jpg">
@@ -54,13 +54,19 @@
     <main>
 
         <h1>City of Rocks National Reserve</h1>
+
+        <figure>
+            <img class="homePpic" src="images/bumblie-trail-arch500.jpg" alt="Bumblie Wall Trail">
+            <figcaption>Granite arch, along the Bumblie Wall Trail</figcaption>
+        </figure>
+
         <p>Emigrants of the California Trail describe the rocks here in vivid detail as "a city of tall spires,” “steeple rocks," and "the silent city." Today, this backcountry byway attracts rock climbers, campers, hikers, hunters, and those with the spirit
             of adventure. There's inspirational scenery, exceptional opportunities for geologic study, and remnants of the Old West awaiting your discovery.</p>
-        <img class="homePpic" src="images/bumblie-trail-arch500.jpg" alt="Bumblie Wall Trail">
 
-        <h2 class=forcastHeader id="townName">Five Day Forecast</h2>
-        <section id="weatherforecast"></section>
-
+        <div class="forcast">
+            <h2 class=forcastHeader id="townName">Five Day Forecast</h2>
+            <section id="weatherforecast"></section>
+        </div>
 
 
     </main>
@@ -71,7 +77,6 @@
         </footer>
     </div>
     <script src="js/scripts.js"></script>
-    <script src="js/severity.js"></script>
     <script src="js/json.js"></script>
     <script src="js/fiveDayAlmo.js"></script>
 
