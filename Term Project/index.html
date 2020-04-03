@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="termprojectnationalpark" content="City of Rocks National Reserve">
+    <meta name="author" content="Ryan Hill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home: City of Rocks</title>
+    <link rel="sortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Rakkas|Rock+Salt&display=swap" rel="stylesheet">
+
+    <!-- Style Sheets (css preprocessor)-->
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div>
+        <div id="headerWrapper">
+            <div class="herodiv, fullWidth">
+                <picture class="heroImg">
+                    <source media="(max-width: 560px)" srcset="images/hero560.jpg">
+                    <source media="(max-width: 1028px)" srcset="images/hero1280.jpg">
+                    <source media="(max-width: 1920px)" srcset="images/hero1920.jpg">
+                    <img src="images/herobrk.jpg" alt="City of Rocks">
+                </picture>
+            </div>
+            <div class="branding">
+                <header class="clearfix">
+                    <img class="logo" src="images/logo.png" alt="Company Logo">
+                    <div>
+                        <h1 class="logoNm">City Of Rocks</h1>
+                        <h2 class="moto">National Park Reserve: Idaho</h2>
+                    </div>
+
+                </header>
+            </div>
+        </div>
+        <div id="navWrapper">
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Our Activities</a></li>
+                    <li><a href="visitUs.html">Visit Us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a href="resourceReferance.html">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main>
+
+        <h1>City of Rocks National Reserve</h1>
+        <p>Emigrants of the California Trail describe the rocks here in vivid detail as "a city of tall spires,” “steeple rocks," and "the silent city." Today, this backcountry byway attracts rock climbers, campers, hikers, hunters, and those with the spirit
+            of adventure. There's inspirational scenery, exceptional opportunities for geologic study, and remnants of the Old West awaiting your discovery.</p>
+        <img class="homePpic" src="images/bumblie-trail-arch500.jpg" alt="Bumblie Wall Trail">
+
+        <h2 class=forcastHeader id="townName">Five Day Forecast</h2>
+        <section id="weatherforecast"></section>
+
+
+
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy;
+            <script src="js/date.js"></script> &bull; Ryan Hill &bull; <a href="https://xjjeepster.github.io/">Portal Page</a> &bull;
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/severity.js"></script>
+    <script src="js/json.js"></script>
+    <script src="js/fiveDayAlmo.js"></script>
+
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Oswald%7cRakkas%7cRock+Salt']
+            }
+        });
+    </script>
+</body>
+
+</html>

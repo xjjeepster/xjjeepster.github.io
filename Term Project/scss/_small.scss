@@ -1,0 +1,134 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* body rules */
+
+body {
+    background: linear-gradient(.25turn, $color1, $color5);
+    font-size: 16px;
+    font-family: $fontfamily1;
+}
+
+
+/* header rules */
+
+.fullWidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.heroImg {
+    opacity: .6;
+}
+
+.branding {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    color: $color3;
+    font-family: $fontfamily2;
+    .logo {
+        width: 75px;
+    }
+    .logoNm {
+        font-family: $fontfamily3;
+        text-shadow: -1px -1px 0 $color5, 1px -1px 0 $color5, -1px 1px 0 $color5, 1px 1px 0 $color5;
+        padding-left: 2%;
+    }
+    .moto {
+        color: $color5;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        padding-left: 2%;
+    }
+}
+
+
+/* nav rules */
+
+div#navWrapper {
+    background: linear-gradient(.25turn, $color1, $color5);
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: $color2;
+}
+
+nav {
+    background-color: transparent;
+    font-family: $fontfamily2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: $color2;
+    padding: .8rem 2%;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: linear-gradient($color3, $color4);
+    color: $color2;
+}
+
+nav ul li.active a {
+    background: linear-gradient($color3, $color5);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/* main rules */
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+
+/* footer rules */
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

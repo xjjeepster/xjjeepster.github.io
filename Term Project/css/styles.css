@@ -402,113 +402,87 @@ html {
 
 /* body rules */
 body {
-  font-family: "Oswald", sans-serif;
-  font-size: 16px; }
+  background: linear-gradient(0.25turn, #3a682e, #0e79b2);
+  font-size: 16px;
+  font-family: "Oswald", sans-serif; }
+
+/* header rules */
+.fullWidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; }
+
+.heroImg {
+  opacity: .6; }
+
+.branding {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
 
 header {
-  background-color: #3a682e;
-  padding: 1rem 2%; }
-  header h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-family: "Rock Salt", cursive; }
-  header h2 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: normal;
-    font-family: "Rakkas", cursive; }
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: transparent;
+  color: #00171f;
+  font-family: "Rakkas", cursive; }
+  header .logo {
+    width: 75px; }
+  header .logoNm {
+    font-family: "Rock Salt", cursive;
+    text-shadow: -1px -1px 0 #0e79b2, 1px -1px 0 #0e79b2, -1px 1px 0 #0e79b2, 1px 1px 0 #0e79b2;
+    padding-left: 2%; }
+  header .moto {
+    color: #0e79b2;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-left: 2%; }
+
+/* nav rules */
+div#navWrapper {
+  background: linear-gradient(0.25turn, #3a682e, #0e79b2); }
+
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #fcfcfc; }
 
 nav {
-  background-color: #423629; }
-  nav ul {
-    margin: 0;
-    padding: 0; }
-  nav li {
-    list-style-type: none; }
-  nav li.active {
-    background-color: #00171f; }
-  nav a {
-    display: block;
-    padding: .8rem 0;
-    /*44px min*/
-    color: #fcfcfc;
-    text-align: center;
-    text-decoration: none; }
-  nav a:hover {
-    background-color: #3a682e; }
+  background-color: transparent;
+  font-family: "Rakkas", cursive; }
 
-main {
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+nav ul li a {
   display: block;
-  padding: 1rem 2%; }
-  main h1 {
-    color: #0e79b2; }
-  main .personaimg {
-    max-width: 300px;
-    border: 1px solid #3a682e; }
-  main .sitemap {
-    max-width: 800px;
-    border: 1px solid #3a682e; }
-  main .colorScheme {
-    max-width: 800px;
-    border: 1px solid #3a682e; }
+  color: #fcfcfc;
+  padding: .8rem 2%;
+  text-decoration: none; }
 
-table,
-th,
-td {
-  border: 1px solid #3a682e; }
-  table .f1,
-  th .f1,
-  td .f1 {
-    font-family: "Rock Salt", cursive;
-    font-size: 40px;
-    padding: 2px; }
-  table .f2,
-  th .f2,
-  td .f2 {
-    font-family: "Rakkas", cursive;
-    font-size: 30px;
-    padding: 2px; }
-  table .f3,
-  th .f3,
-  td .f3 {
-    font-family: "Rakkas", cursive;
-    font-size: 20px;
-    padding: 2px; }
-  table .f4,
-  th .f4,
-  td .f4 {
-    font-family: "Rock Salt", cursive;
-    font-size: 30px;
-    padding: 2px; }
-  table .f5,
-  th .f5,
-  td .f5 {
-    font-family: "Rakkas", cursive;
-    font-size: 25px;
-    padding: 2px; }
-  table .f6,
-  th .f6,
-  td .f6 {
-    font-family: "Rakkas", cursive;
-    font-size: 20px;
-    padding: 2px; }
-  table .f7,
-  th .f7,
-  td .f7 {
-    font-family: "Oswald", sans-serif;
-    font-size: 16px;
-    padding: 2px; }
+nav ul li a:hover {
+  background: linear-gradient(#00171f, #423629);
+  color: #fcfcfc; }
 
-.wframe {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 15px; }
+nav ul li.active a {
+  background: linear-gradient(#00171f, #0e79b2); }
 
-footer {
-  background-color: #3a682e;
-  text-align: center;
-  padding: 1rem 2%; }
+nav ul.hide {
+  display: none; }
 
+/* main rules */
+main {
+  padding: 0 2%;
+  min-height: 10rem; }
+
+/* footer rules */
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
@@ -516,41 +490,29 @@ footer {
   clear: both; }
 
 @media only screen and (min-width: 560px) {
-  nav li {
-    width: 25%;
-    float: left; }
-
-  main figure {
-    float: right;
-    width: 48%;
-    margin-left: 2%;
-    padding-bottom: .5rem; }
-
-  div.news {
-    clear: both;
-    column-count: 2;
-    column-rule: 1px solid #ddd; } }
-/* end of media query */
-@media only screen and (min-width: 1028px) {
-  header,
-  nav,
-  main,
-  footer {
-    max-width: 1200px;
-    margin: auto; }
-
-  nav ul {
+  /*----------- NAVIGATION --------------*/
+  nav {
     padding-left: 2%; }
 
-  nav li {
-    width: auto; }
+  nav button {
+    display: none; }
 
-  nav a {
-    padding: .5rem 1rem; }
+  nav ul.hide {
+    display: block; }
 
-  main figure {
-    width: 31%; }
+  nav ul li.active a {
+    background: transparent;
+    color: #423629;
+    text-shadow: -0.5px -0.5px 0 #00171f, 0.5px -0.5px 0 #00171f, -0.5px 0.5px 0 #00171f, 0.5px 0.5px 0 #00171f; }
 
-  div.news {
-    column-count: 3; } }
+  nav ul li a:hover {
+    border-radius: 5px 0 5px 0; }
+
+  nav ul li {
+    float: left; }
+
+  nav ul li a {
+    border: none;
+    padding: .6rem 1rem; } }
+/* end of media query */
 /* end of media query */
