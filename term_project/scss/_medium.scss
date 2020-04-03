@@ -1,0 +1,45 @@
+/*----------- HEADER --------------*/
+
+header .logo {
+    width: 100px;
+}
+
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+    padding-left: 2%;
+}
+
+nav button {
+    display: none;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+nav ul li.active a {
+    background: transparent;
+    color: $color4;
+    text-shadow: -.5px -.5px 0 $color3, .5px -.5px 0 $color3, -.5px .5px 0 $color3, .5px .5px 0 $color3;
+}
+
+nav ul li a:hover {
+    border-radius: 5px 0 5px 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    border: none;
+    padding: .6rem 1rem;
+}
+
+
+/*----------- MAIN --------------*/
+
+
+/*----------- FOOTER --------------*/

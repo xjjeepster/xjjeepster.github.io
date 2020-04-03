@@ -490,6 +490,10 @@ main {
   clear: both; }
 
 @media only screen and (min-width: 560px) {
+  /*----------- HEADER --------------*/
+  header .logo {
+    width: 100px; }
+
   /*----------- NAVIGATION --------------*/
   nav {
     padding-left: 2%; }
@@ -513,6 +517,11 @@ main {
 
   nav ul li a {
     border: none;
-    padding: .6rem 1rem; } }
+    padding: .6rem 1rem; }
+
+  /*----------- MAIN --------------*/
+  /*----------- FOOTER --------------*/ }
 /* end of media query */
 /* end of media query */
+
+/*# sourceMappingURL=styles.css.map */
