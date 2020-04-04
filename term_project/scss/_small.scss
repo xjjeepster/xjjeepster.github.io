@@ -208,13 +208,20 @@ main {
 
 /* form rules */
 
+form {
+    border: 1px solid $color4;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px $color4;
+    background-image: radial-gradient($color5, $color5, $color3);
+}
+
 form fieldset {
-    margin: 2rem 0;
+    margin: 1rem 2%;
     border: 1px solid $color4;
     border-radius: 10px;
     padding: .5rem 2%;
-    background-image: radial-gradient($color5, $color5, $color3);
-    width: 30vw;
+    background-image: transparent;
 }
 
 form legend {
