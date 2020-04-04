@@ -436,11 +436,12 @@ header {
   width: 100vw;
   margin: 0 auto; }
   header .logo {
-    width: 100px;
-    padding: 4px; }
+    height: 150px;
+    padding: 4px;
+    margin: 20px; }
   header .logoNm {
     font-family: "Rock Salt", cursive;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: -1px -1px 0 #0e79b2, 1px -1px 0 #0e79b2, -1px 1px 0 #0e79b2, 1px 1px 0 #0e79b2;
     padding-left: 2%; }
   header .moto {
@@ -661,8 +662,8 @@ div#footerWrapper {
     background: url("/term_project/images/hero1280.jpg");
     background-repeat: no-repeat; }
 
-  header .logo {
-    width: 100px; }
+  header .logoNm {
+    font-size: 40px; }
 
   /*----------- NAVIGATION --------------*/
   nav {

@@ -65,12 +65,14 @@ header {
     width: 100vw;
     margin: 0 auto;
     .logo {
-        width: 100px;
+        // width: 75px;
+        height: 150px;
         padding: 4px;
+        margin: 20px;
     }
     .logoNm {
         font-family: $fontfamily3;
-        font-size: 40px;
+        font-size: 30px;
         text-shadow: -1px -1px 0 $color5, 1px -1px 0 $color5, -1px 1px 0 $color5, 1px 1px 0 $color5;
         padding-left: 2%;
     }
