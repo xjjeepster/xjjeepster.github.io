@@ -160,7 +160,6 @@ main {
 .forcast {
     background-image: radial-gradient($color5, $color3);
     border-radius: 10px 10px 0 0;
-    grid-column-start: 1 / span 1;
     .forcastHeader {
         display: block;
         padding: 2%;
@@ -222,7 +221,6 @@ form fieldset {
     border: 1px solid $color4;
     border-radius: 10px;
     padding: .5rem 2%;
-    background-image: transparent;
 }
 
 form legend {
