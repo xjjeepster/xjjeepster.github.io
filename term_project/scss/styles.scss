@@ -12,5 +12,9 @@
     @import "large";
 }
 
+@media only screen and (min-width: 1920px) {
+    @import "xlarge";
+}
+
 
 /* end of media query */

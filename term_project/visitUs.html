@@ -17,27 +17,19 @@
 </head>
 
 <body>
-    <div>
-        <div id="headerWrapper">
-            <div class="herodiv">
-                <picture class="heroImg">
-                    <source media="(max-width: 560px)" srcset="images/hero560.jpg">
-                    <source media="(max-width: 1028px)" srcset="images/hero1280.jpg">
-                    <source media="(max-width: 1920px)" srcset="images/hero1920.jpg">
-                    <img src="images/herobrk.jpg" alt="City of Rocks">
-                </picture>
-            </div>
-            <div class="branding">
-                <header class="clearfix">
-                    <img class="logo" src="images/logo.png" alt="Company Logo">
-                    <div>
-                        <h1 class="logoNm">City Of Rocks</h1>
-                        <h2 class="moto">National Park Reserve: Idaho</h2>
-                    </div>
+    <div id="headerWrapper">
+        <div class="branding">
+            <header class="clearfix">
+                <img class="logo" src="images/logo.png" alt="Company Logo">
+                <div>
+                    <h1 class="logoNm">City Of Rocks</h1>
+                    <h2 class="moto">National Park Reserve: Idaho</h2>
+                </div>
 
-                </header>
-            </div>
+            </header>
         </div>
+    </div>
+    <div class="limit">
         <div id="navWrapper">
             <nav class="clearfix">
                 <button onclick="toggleMenu()">&#9776;</button>
@@ -88,24 +80,26 @@
 
             </form>
 
+
         </main>
-        <div id="footerWrapper">
-            <footer>
-                &copy;
-                <script src="js/date.js"></script> &bull; Ryan Hill &bull; <a href="https://xjjeepster.github.io/">Portal Page</a> &bull;
-            </footer>
-        </div>
-        <script src="js/scripts.js"></script>
+    </div>
+    <div id="footerWrapper">
+        <footer>
+            &copy;
+            <script src="js/date.js"></script> &bull; Ryan Hill &bull; <a href="https://xjjeepster.github.io/">Portal Page</a> &bull;
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
 
 
 
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Oswald%7cRakkas%7cRock+Salt']
-                }
-            });
-        </script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Oswald%7cRakkas%7cRock+Salt']
+            }
+        });
+    </script>
 </body>
 
 </html>

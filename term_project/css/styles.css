@@ -422,27 +422,22 @@ body h3 {
   font-size: 20px; }
 
 /* header rules */
-.heroImg {
-  opacity: .6;
-  display: block;
-  margin: 0;
-  width: 100%;
-  padding-bottom: 2%; }
-
 .branding {
-  position: absolute;
   top: 10px;
   left: 10px; }
 
 header {
   display: flex;
-  align-items: center;
-  align-content: center;
-  background-color: transparent;
   color: #00171f;
-  font-family: "Rakkas", cursive; }
+  font-family: "Rakkas", cursive;
+  background: url("/term_project/images/hero560.jpg");
+  background-repeat: no-repeat;
+  flex-direction: row;
+  width: 100vw;
+  margin: 0 auto; }
   header .logo {
-    width: 75px; }
+    width: 100px;
+    padding: 4px; }
   header .logoNm {
     font-family: "Rock Salt", cursive;
     font-size: 40px;
@@ -555,7 +550,6 @@ main {
 /* form rules */
 form {
   border: 1px solid #423629;
-  width: 30vw;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 5px #423629;
   background-image: radial-gradient(#0e79b2, #0e79b2, #00171f); }
@@ -649,7 +643,9 @@ div#footerWrapper {
     color: #fcfcfc; }
     div#footerWrapper footer a {
       color: #0e79b2;
-      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      font-family: "Rakkas", cursive;
+      font-size: 20px; }
     div#footerWrapper footer a:hover {
       color: #fcfcfc; }
 
@@ -661,15 +657,17 @@ div#footerWrapper {
 
 @media only screen and (min-width: 560px) {
   /*----------- HEADER --------------*/
+  header {
+    background: url("/term_project/images/hero1280.jpg");
+    background-repeat: no-repeat; }
+
   header .logo {
     width: 100px; }
 
-  .heroImg {
-    padding-bottom: 0; }
-
   /*----------- NAVIGATION --------------*/
   nav {
-    padding-left: 2%; }
+    padding-left: 2%;
+    font-size: 30px; }
 
   nav button {
     display: none; }
@@ -693,6 +691,9 @@ div#footerWrapper {
     padding: .6rem 1rem; }
 
   /*----------- MAIN --------------*/
+  body {
+    max-width: 1920px; }
+
   main figure {
     float: right;
     width: 48%;
@@ -704,6 +705,10 @@ div#footerWrapper {
     margin: 0;
     width: 100%;
     border-radius: 10px 10px 0 10px; }
+
+  .limit {
+    max-width: 1350px;
+    margin: auto; }
 
   /* contact us rules */
   .contactGrid {
@@ -729,6 +734,10 @@ div#footerWrapper {
       border: 1px solid #423629;
       box-shadow: 0px 0px 20px 5px #423629; }
 
+  /* Form rules */
+  form {
+    width: 30vw; }
+
   /* Activity cards rules */
   .cards {
     grid-template-columns: 1fr 1fr 1fr; }
@@ -737,24 +746,17 @@ div#footerWrapper {
 /* end of media query */
 @media only screen and (min-width: 1280px) {
   /*----------- BODY --------------*/
-  header,
-  nav,
-  main,
-  footer {
-    max-width: 80rem;
-    margin: auto; }
-
   /*----------- HEADER --------------*/
+  header {
+    background: url("/term_project/images/hero1920.jpg");
+    background-repeat: no-repeat; }
+
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
-  .fullWidth {
-    width: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin-left: 0;
-    margin-right: 0; }
-
   /*----------- HOME PAGE -----------*/
   /*----------- FOOTER --------------*/ }
+@media only screen and (min-width: 1920px) {
+  header {
+    background: url("/term_project/images/herobrk.jpg");
+    background-repeat: no-repeat; } }
 /* end of media query */

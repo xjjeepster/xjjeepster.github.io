@@ -1,11 +1,12 @@
 /*----------- HEADER --------------*/
 
-header .logo {
-    width: 100px;
+header {
+    background: url("/term_project/images/hero1280.jpg");
+    background-repeat: no-repeat;
 }
 
-.heroImg {
-    padding-bottom: 0;
+header .logo {
+    width: 100px;
 }
 
 
@@ -13,6 +14,7 @@ header .logo {
 
 nav {
     padding-left: 2%;
+    font-size: 30px;
 }
 
 nav button {
@@ -45,6 +47,10 @@ nav ul li a {
 
 /*----------- MAIN --------------*/
 
+body {
+    max-width: 1920px;
+}
+
 main figure {
     float: right;
     width: 48%;
@@ -57,6 +63,11 @@ main figure {
     margin: 0;
     width: 100%;
     border-radius: 10px 10px 0 10px;
+}
+
+.limit {
+    max-width: 1350px;
+    margin: auto;
 }
 
 
@@ -89,6 +100,13 @@ main figure {
         border: 1px solid $color4;
         box-shadow: 0px 0px 20px 5px $color4;
     }
+}
+
+
+/* Form rules */
+
+form {
+    width: 30vw;
 }
 
 
