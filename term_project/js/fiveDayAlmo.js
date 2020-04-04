@@ -34,11 +34,14 @@ fetch(apiURL)
                 forecastDayNumber += 1;
                 if (forecastDayNumber === 7) { forecastDayNumber = 0; }
 
-                let theDayName = document.createElement("span");
+                let theDayName = document.createElement("h3");
                 theDayName.textContent = weekday[forecastDayNumber];
 
                 let theTemp = document.createElement("p");
                 theTemp.textContent = "High of: " + weatherInfo.list[i].main.temp + "\xB0";
+
+                let theWindchill = document.createElement("p");
+                theWindchill.textContent = "Feels Like: " + weatherInfo.list[i].main.feels_like + "\xB0";
 
                 let iconcode = weatherInfo.list[i].weather[0].icon;
                 let iconPath = "//openweathermap.org/img/w/" + iconcode + ".png";
@@ -49,8 +52,10 @@ fetch(apiURL)
 
                 let theDay = document.createElement("div");
                 theDay.appendChild(theDayName);
-                theDay.appendChild(theTemp);
                 theDay.appendChild(theIcon);
+                theDay.appendChild(theTemp);
+                theDay.appendChild(theWindchill);
+
 
                 document.getElementById('weatherforecast').appendChild(theDay);
 
