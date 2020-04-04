@@ -450,7 +450,7 @@ header {
 
 /* nav rules */
 div#navWrapper {
-  background: linear-gradient(0.25turn, #3a682e, #0e79b2); }
+  background: transparent; }
 
 nav button {
   margin: .2rem 2%;
@@ -495,6 +495,14 @@ main {
   main figure {
     margin: 0; }
 
+.montage {
+  background-image: radial-gradient(#0e79b2, #00171f);
+  border-radius: 0 0 10px 10px;
+  padding: 2%; }
+  .montage img {
+    width: 100%;
+    border-radius: 10px; }
+
 .thankYou {
   margin: auto;
   display: flex;
@@ -508,7 +516,7 @@ main {
 
 .forcast {
   background-image: radial-gradient(#0e79b2, #00171f);
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   grid-column-start: 1 / span 1; }
   .forcast .forcastHeader {
     display: block;
@@ -710,6 +718,14 @@ div#footerWrapper {
     max-width: 1350px;
     margin: auto; }
 
+  .fullWidth {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0; }
+
   /* contact us rules */
   .contactGrid {
     display: flex;
@@ -736,7 +752,7 @@ div#footerWrapper {
 
   /* Form rules */
   form {
-    width: 30vw; }
+    width: 50vw; }
 
   /* Activity cards rules */
   .cards {
@@ -753,6 +769,9 @@ div#footerWrapper {
 
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
+  form {
+    width: 30vw; }
+
   /*----------- HOME PAGE -----------*/
   /*----------- FOOTER --------------*/ }
 @media only screen and (min-width: 1920px) {

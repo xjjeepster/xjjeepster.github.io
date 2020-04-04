@@ -70,6 +70,15 @@ main figure {
     margin: auto;
 }
 
+.fullWidth {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 
 /* contact us rules */
 
@@ -106,7 +115,7 @@ main figure {
 /* Form rules */
 
 form {
-    width: 30vw;
+    width: 50vw;
 }
 
 
